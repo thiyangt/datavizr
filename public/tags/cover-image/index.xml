@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cover image on Hugo tranquilpeak theme</title>
+    <title>cover image on Data Visualisation with R</title>
     <link>https://rdataviz.netlify.app/tags/cover-image/</link>
-    <description>Recent content in cover image on Hugo tranquilpeak theme</description>
+    <description>Recent content in cover image on Data Visualisation with R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/cover-image/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/cover-image/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cover image showcase</title>
-      <link>https://rdataviz.netlify.app/2015/05/cover-image-showcase/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <title>Install R and RStudio (Posit)</title>
+      <link>https://rdataviz.netlify.app/2023/05/install-r-and-rstudio-posit/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rdataviz.netlify.app/2015/05/cover-image-showcase/</guid>
-      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
+      <guid>https://rdataviz.netlify.app/2023/05/install-r-and-rstudio-posit/</guid>
+      <description>You must install R and RStudio on your PCs before attending the workshop.
+Download and Install R and RStudio In this workshop, we will be using the free and open-source program R, along with a user interface called RStudio. R works on pretty much every platform available, including the widely available Windows, Mac OS X, and Linux systems.
+Step 1: Download software Follow the url below and download R and R studio.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R</title>
+      <link>https://rdataviz.netlify.app/2023/05/introduction-to-r/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdataviz.netlify.app/2023/05/introduction-to-r/</guid>
+      <description>Click here to view the slides.</description>
     </item>
     
   </channel>

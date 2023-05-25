@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo tranquilpeak theme</title>
+    <title>Categories on Data Visualisation with R</title>
     <link>https://rdataviz.netlify.app/categories/</link>
-    <description>Recent content in Categories on Hugo tranquilpeak theme</description>
+    <description>Recent content in Categories on Data Visualisation with R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>features</title>
       <link>https://rdataviz.netlify.app/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rdataviz.netlify.app/categories/features/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>tranquilpeak</title>
       <link>https://rdataviz.netlify.app/categories/tranquilpeak/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rdataviz.netlify.app/categories/tranquilpeak/</guid>
       <description></description>

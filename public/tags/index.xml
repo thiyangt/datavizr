@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo tranquilpeak theme</title>
+    <title>Tags on Data Visualisation with R</title>
     <link>https://rdataviz.netlify.app/tags/</link>
-    <description>Recent content in Tags on Hugo tranquilpeak theme</description>
+    <description>Recent content in Tags on Data Visualisation with R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>html elements</title>
       <link>https://rdataviz.netlify.app/tags/html-elements/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rdataviz.netlify.app/tags/html-elements/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>markdown</title>
       <link>https://rdataviz.netlify.app/tags/markdown/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rdataviz.netlify.app/tags/markdown/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>cover image</title>
       <link>https://rdataviz.netlify.app/tags/cover-image/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rdataviz.netlify.app/tags/cover-image/</guid>
       <description></description>

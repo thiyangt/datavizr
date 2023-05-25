@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>html elements on Hugo tranquilpeak theme</title>
+    <title>html elements on Data Visualisation with R</title>
     <link>https://rdataviz.netlify.app/tags/html-elements/</link>
-    <description>Recent content in html elements on Hugo tranquilpeak theme</description>
+    <description>Recent content in html elements on Data Visualisation with R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/html-elements/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdataviz.netlify.app/tags/html-elements/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Elements showcase</title>
-      <link>https://rdataviz.netlify.app/2015/05/elements-showcase/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <title>About this workshop</title>
+      <link>https://rdataviz.netlify.app/2023/05/about-this-workshop/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rdataviz.netlify.app/2015/05/elements-showcase/</guid>
-      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.&lt;/p&gt;</description>
+      <guid>https://rdataviz.netlify.app/2023/05/about-this-workshop/</guid>
+      <description>Dr. Thiyanga S. Talagala created and maintains this workshop webpage. This workshop website was built for the Online Certificate course in Data Visualization with R and Python.
+The workshop&amp;rsquo;s Python content is available at https://pythonviz.netlify.app/. Dr. Priyanga Dilini Talagala created and maintains it.
+Code of Conduct This workshop series is dedicated to providing a harassment-free experience for everyone.
+This code of conduct applies to all the spaces, including online workshops, Twitter, mailing lists, both online and offline.</description>
     </item>
     
   </channel>
