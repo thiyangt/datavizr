@@ -3,7 +3,7 @@ title: "Data Import and Export"
 subtitle: ""
 author: 
   - "<br><br>Thiyanga S. Talagala, University of Sri Jayewardenepura"
-date: 'IASSL - Feb 21/25, 2022 <br> Slides: [https://r4fun.netlify.app/](https://r4fun.netlify.app/)'
+date: 'IASSL - May 25-28, 2023' 
 output:
   xaringan::moon_reader:
     css: [ xaringan-themer.css]
