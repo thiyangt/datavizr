@@ -2,7 +2,7 @@
 categories:
 - tranquilpeak
 - features
-coverImage: /cover.png
+coverImage: /airport.jpg
 coverMeta: out
 date: "2023-05-19"
 metaAlignment: center
