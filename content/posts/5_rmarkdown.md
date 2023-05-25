@@ -8,7 +8,7 @@ date: "2023-05-15"
 metaAlignment: center
 tags:
 - cover image
-thumbnailImage: /hex/r.jpeg
+thumbnailImage: /hex/rmarkdown.png
 thumbnailImagePosition: left
 title: Reproducible Research with RMarkdown
 ---

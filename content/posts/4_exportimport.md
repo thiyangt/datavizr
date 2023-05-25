@@ -8,7 +8,7 @@ date: "2023-05-16"
 metaAlignment: center
 tags:
 - cover image
-thumbnailImage: /hex/r.jpeg
+thumbnailImage: /hex/readr.png
 thumbnailImagePosition: left
 title: Data Export and Import
 ---
