@@ -2,38 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rdataviz.netlify.app/2023/05/about-this-workshop/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rdataviz.netlify.app/categories/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rdataviz.netlify.app/2015/05/elements-showcase/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rdataviz.netlify.app/categories/features/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rdataviz.netlify.app/tags/html-elements/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rdataviz.netlify.app/categories/features/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rdataviz.netlify.app/tags/html-elements/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/tags/markdown/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/posts/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/tags/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/categories/tranquilpeak/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/tags/cover-image/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rdataviz.netlify.app/2015/05/cover-image-showcase/</loc>
-    <lastmod>2015-05-13T00:00:00+00:00</lastmod>
+    <loc>https://rdataviz.netlify.app/2023/05/install-r-and-rstudio-posit/</loc>
+    <lastmod>2023-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rdataviz.netlify.app/2023/05/introduction-to-r/</loc>
+    <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rdataviz.netlify.app/archives/</loc>
   </url>

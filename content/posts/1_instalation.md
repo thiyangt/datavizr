@@ -2,7 +2,7 @@
 categories:
 - tranquilpeak
 - features
-coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
+coverImage: /cover.png
 coverMeta: out
 date: "2023-05-19"
 metaAlignment: center
