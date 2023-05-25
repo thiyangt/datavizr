@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://rdataviz.netlify.app/
 languageCode: en-us
 defaultContentLanguage: en-us
 title: Hugo tranquilpeak theme
@@ -19,10 +19,10 @@ markup:
     startLevel: 1
 author:
   bio: Super bio with markdown support **COOL**
-  gravatarEmail: thibaud.lepretre@gmail.com
+  gravatarEmail: ttalagala@sjp.ac.lk
   job: Your job title
   location: France
-  name: Firstname Lastname
+  name: Data Visualisation with R
   picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
 menu:
   links:
