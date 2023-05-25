@@ -18,44 +18,39 @@ markup:
     ordered: no
     startLevel: 1
 author:
-  bio: Super bio with markdown support **COOL**
+  bio: Dr Thiyanga S. Talagala
   gravatarEmail: ttalagala@sjp.ac.lk
-  job: Your job title
-  location: France
+  job: Senior Lecturer, Department of Statistics, University of Sri Jayewardenepura
+  location: Sri Lanka
   name: Data Visualisation with R
-  picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
+  picture: https://thiyanga.netlify.app/authors/admin/avatar_hu839b824ee75c8cd358253c09ae64dbe9_910215_250x250_fill_q90_lanczos_center.jpg
 menu:
   links:
     - identifier: github
       name: GitHub
       pre: <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
-      url: https://github.com/kakawait
+      url: https://github.com/thiyangt
       weight: 1
-    - identifier: stackoverflow
-      name: Stack Overflow
-      pre: <i class="sidebar-button-icon fab fa-lg fa-stack-overflow" aria-hidden="true"></i>
-      url: https://stackoverflow.com/users/636472/kakawait
-      weight: 2
   main:
     - identifier: home
       name: Home
       pre: <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
       url: /
       weight: 1
-    - identifier: categories
-      name: Categories
-      pre: <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
-      url: /categories
+    - identifier: 
+      name: Thiyanga's web
+      pre: <i class="sidebar-button-icon fas fa-hand-point-right" aria-hidden="true"></i>
+      url: https://thiyanga.netlify.app/
       weight: 2
-    - identifier: tags
-      name: Tags
-      pre: <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
-      url: /tags
+    - identifier: 
+      name: Priyanga's web
+      pre: <i class="sidebar-button-icon fas fa-hand-point-right" aria-hidden="true"></i>
+      url: https://prital.netlify.app/
       weight: 3
-    - identifier: archives
-      name: Archives
+    - identifier: 
+      name: Python
       pre: <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
-      url: /archives
+      url: https://pythonviz.netlify.app/
       weight: 4
     - identifier: about
       name: About
