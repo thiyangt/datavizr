@@ -13,4 +13,4 @@ thumbnailImagePosition: left
 title: Data Export and Import
 ---
 
-Click [here](/slides/4Introduction_to_R_and_RStudio/7_import_export_iassl.html) to view the slides.
+Click [here](/slides/7dataimport_export/7_import_export_iassl.html) to view the slides.

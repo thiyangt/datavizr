@@ -13,4 +13,4 @@ thumbnailImagePosition: left
 title: Reproducible Research with RMarkdown
 ---
 
-Click [here](/slides/4Introduction_to_R_and_RStudio/rmarkdownRladies_tst_IASSL.html) to view the slides.
+Click [here](/slides/rmarkdown/rmarkdownRladies_tst_IASSL.html) to view the slides.

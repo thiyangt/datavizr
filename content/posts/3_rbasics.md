@@ -13,4 +13,4 @@ thumbnailImagePosition: left
 title: R Programming Basics
 ---
 
-Click [here](/slides/4Introduction_to_R_and_RStudio/5_basics_IASSL.html) to view the slides.
+Click [here](/slides/5Basics_of_Rprogramming/5_basics_IASSL.html) to view the slides.
