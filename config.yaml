@@ -1,7 +1,7 @@
 baseURL: https://rdataviz.netlify.app/
 languageCode: en-us
 defaultContentLanguage: en-us
-title: Hugo tranquilpeak theme
+title: Data Visualisation with R
 theme: hugo-tranquilpeak-theme
 disqusShortname: hugo-tranquilpeak-theme
 paginate: 7
