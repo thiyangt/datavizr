@@ -19,11 +19,20 @@ Step 1: Download software Follow the url below and download R and R studio.</des
     </item>
     
     <item>
-      <title>Introduction to R</title>
-      <link>https://rdataviz.netlify.app/2023/05/introduction-to-r/</link>
+      <title>Introduction to R and RStudio (Posit)</title>
+      <link>https://rdataviz.netlify.app/2023/05/introduction-to-r-and-rstudio-posit/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rdataviz.netlify.app/2023/05/introduction-to-r/</guid>
+      <guid>https://rdataviz.netlify.app/2023/05/introduction-to-r-and-rstudio-posit/</guid>
+      <description>Click here to view the slides.</description>
+    </item>
+    
+    <item>
+      <title>R Programming Basics</title>
+      <link>https://rdataviz.netlify.app/2023/05/r-programming-basics/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdataviz.netlify.app/2023/05/r-programming-basics/</guid>
       <description>Click here to view the slides.</description>
     </item>
     
