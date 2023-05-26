@@ -10,7 +10,7 @@ tags:
 - cover image
 thumbnailImage: /hex/ggplot2.png
 thumbnailImagePosition: left
-title: Grammar of Graphics 
+title: Your Turn 
 ---
 
 Click [here](/slides/yourturn/10_YourTurn.html) to view the slides.
