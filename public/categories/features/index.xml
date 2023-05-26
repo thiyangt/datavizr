@@ -66,5 +66,23 @@ Step 1: Download software Follow the url below and download R and R studio.</des
       <description>Click here to view the slides.</description>
     </item>
     
+    <item>
+      <title>Introduction to Data Visualisation and Visualisation Design Principles</title>
+      <link>https://rdataviz.netlify.app/2023/05/introduction-to-data-visualisation-and-visualisation-design-principles/</link>
+      <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdataviz.netlify.app/2023/05/introduction-to-data-visualisation-and-visualisation-design-principles/</guid>
+      <description>Click here to view the slides.</description>
+    </item>
+    
+    <item>
+      <title>Grammar of Graphics</title>
+      <link>https://rdataviz.netlify.app/2023/05/grammar-of-graphics/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdataviz.netlify.app/2023/05/grammar-of-graphics/</guid>
+      <description>Click here to view the slides.</description>
+    </item>
+    
   </channel>
 </rss>
