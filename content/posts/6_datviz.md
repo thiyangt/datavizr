@@ -8,7 +8,7 @@ date: "2023-05-14"
 metaAlignment: center
 tags:
 - cover image
-thumbnailImage: /hex/rmarkdown.png
+thumbnailImage: /hex/ggplot2.png
 thumbnailImagePosition: left
 title: Introduction to Data Visualisation and Visualisation Design Principles
 ---
