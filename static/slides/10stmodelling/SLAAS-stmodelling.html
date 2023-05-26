@@ -15,10 +15,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Introduction to statistical modelling in R
+]
+.subtitle[
 ## <span style="color:#06c280">Online Workshop - Section C - SLAAS </span>
+]
+.author[
 ### <span style="color:#06c280">Priyanga Dilini Talagala </span>
+]
+.date[
 ### <span style="color:#06c280">29/08/2021</span> </br></br><img src="fig/42_broom.png" width="201" />
+]
 
 ---
 
@@ -553,19 +561,20 @@ model1 &lt;- lm( body_mass_g ~ flipper_length_mm, data = penguins)
 
 ```
 # A tibble: 342 × 9
-   .rownames body_mass_g flipper_length_… .fitted  .resid    .hat .sigma .cooksd
-   &lt;chr&gt;           &lt;int&gt;            &lt;int&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;
- 1 1                3750              181   3212.  538.   0.00881   394. 8.34e-3
- 2 2                3800              186   3461.  339.   0.00622   394. 2.33e-3
- 3 3                3250              195   3908. -658.   0.00344   393. 4.83e-3
- 4 5                3450              193   3808. -358.   0.00385   394. 1.60e-3
- 5 6                3650              190   3659.   -9.43 0.00469   395. 1.35e-6
- 6 7                3625              181   3212.  413.   0.00881   394. 4.91e-3
- 7 8                4675              195   3908.  767.   0.00344   393. 6.56e-3
- 8 9                3475              193   3808. -333.   0.00385   394. 1.39e-3
- 9 10               4250              190   3659.  591.   0.00469   394. 5.31e-3
-10 11               3300              186   3461. -161.   0.00622   395. 5.23e-4
-# … with 332 more rows, and 1 more variable: .std.resid &lt;dbl&gt;
+   .rownames body_mass_g flipper_length_mm .fitted  .resid    .hat .sigma
+   &lt;chr&gt;           &lt;int&gt;             &lt;int&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;
+ 1 1                3750               181   3212.  538.   0.00881   394.
+ 2 2                3800               186   3461.  339.   0.00622   394.
+ 3 3                3250               195   3908. -658.   0.00344   393.
+ 4 5                3450               193   3808. -358.   0.00385   394.
+ 5 6                3650               190   3659.   -9.43 0.00469   395.
+ 6 7                3625               181   3212.  413.   0.00881   394.
+ 7 8                4675               195   3908.  767.   0.00344   393.
+ 8 9                3475               193   3808. -333.   0.00385   394.
+ 9 10               4250               190   3659.  591.   0.00469   394.
+10 11               3300               186   3461. -161.   0.00622   395.
+# ℹ 332 more rows
+# ℹ 2 more variables: .cooksd &lt;dbl&gt;, .std.resid &lt;dbl&gt;
 ```
 
 
@@ -678,7 +687,7 @@ model1 &lt;- lm( body_mass_g ~ flipper_length_mm, data = penguins)
   r.squared adj.r.squared sigma statistic   p.value    df logLik   AIC   BIC
       &lt;dbl&gt;         &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
 1     0.759         0.758  394.     1071. 4.37e-107     1 -2528. 5063. 5074.
-# … with 3 more variables: deviance &lt;dbl&gt;, df.residual &lt;int&gt;, nobs &lt;int&gt;
+# ℹ 3 more variables: deviance &lt;dbl&gt;, df.residual &lt;int&gt;, nobs &lt;int&gt;
 ```
 
 ---
@@ -846,6 +855,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
