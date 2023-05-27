@@ -13,10 +13,13 @@ thumbnailImagePosition: left
 title: Case study
 ---
 
+Original image credit: https://pixabay.com/ (The original image was edited.)
 
+# Data
 
 Data: Load [here](/data/elephants.csv)
 
+# Variable Description
 
 | Variable name  | Variable description  |
 |---|---|
