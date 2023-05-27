@@ -52,6 +52,11 @@ menu:
       pre: <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
       url: https://pythonviz.netlify.app/
       weight: 4
+    - identifier: 
+      name: Recordings
+      pre: <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      url: https://www.youtube.com/playlist?list=PL7Bw8wPdOZXmhzBRbSFZ_9xF5revxlm8h
+      weight: 4
     - identifier: about
       name: About
       pre: <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>

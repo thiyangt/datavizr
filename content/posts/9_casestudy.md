@@ -28,6 +28,6 @@ Data: Load [here](/data/elephants.csv)
 | Neck_Girth  | neck girth in meters  |
 | Weight  | body weight in meters  |
 | Height  |  shoulder height in meters |
-| Fore_Feet_Circumference  |  fore feet circumference in meters |
+| Fore_Feet_Circumference  |  Average fore feet circumference in meters |
 
 
