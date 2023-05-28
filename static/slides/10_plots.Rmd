@@ -1,0 +1,232 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(skimr)
+library(magrittr)
+library(plotly)
+```
+
+# Plot 1
+
+### Stacked bar chart
+
+
+Position: `stack`
+
+```{r, comment=NA, message=FALSE}
+b1 <- ggplot(data=diamonds, aes(x=cut, fill=color))
+```
+
+
+```{r, echo=FALSE}
+#  stack is default
+b1 + geom_bar(position = "stack")
+```
+
+### Grouped bar chart
+
+
+Position: `dodge`
+
+
+
+```{r, echo=FALSE}
+#  stack is default
+b1 + geom_bar(position = "dodge")
+```
+
+# Plot 2
+
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+library(gapminder)
+gap2007 <- gapminder %>%
+filter(continent == "Asia" &
+year == 2007)
+
+ggplot(gap2007,
+aes(x= lifeExp, y = country)) +
+geom_point()
+
+ggplot(gap2007,
+aes(x=lifeExp,
+y=reorder(country, lifeExp))) +
+geom_point()+ggtitle("life expectancy at birth, in 2007")
+
+ggplot(gap2007,
+aes(x=lifeExp,
+y=reorder(country, lifeExp))) +
+geom_bar(stat="identity")+ggtitle("life expectancy at birth, in 2007")
+
+```
+
+### Heat map
+
+```{r comment=NA, message=FALSE, warning=FALSE, echo=FALSE}
+gapminderAsia <- gapminder %>%
+filter(continent == "Asia")
+
+ggplot(gapminderAsia, aes(x=year, fill=lifeExp, y=country))+
+  geom_raster()+
+  scale_fill_viridis_c()
+
+ggplot(gapminderAsia, aes(x=year, fill=lifeExp, y=reorder(country, lifeExp)))+
+  geom_raster()+
+  scale_fill_viridis_c()
+
+
+```
+
+# Plot 3
+
+```{r}
+ggplot(gapminderAsia, aes(x=year, y=lifeExp, col=country))+
+  geom_line()
+```
+
+```{r}
+p2 <- ggplot(gapminderAsia, aes(x=year, y=lifeExp, col=country))+
+  geom_line() + theme(legend.position="bottom")
+p2
+```
+
+```{r}
+ggplotly(p2)
+```
+
+# Plot 4
+
+```{r}
+set.seed(2020)
+x <- runif(10000, -1, 1)
+y <- runif(10000, -1, 1)
+fx <- x^2 + y^2
+coly <-  ifelse(fx <= 1, 1, 0)
+coly <- as.factor(coly)
+circle.points <- data.frame(x=x, y=y, coly=coly)
+head(circle.points)
+
+ggplot(circle.points, aes(x=x, y=y, col=coly)) + 
+   geom_point() +
+   scale_colour_manual(values = c("#e7298a", "#1b9e77")) +
+   theme(legend.position = "none")
+
+```
+
+```{r}
+ggplot(circle.points, aes(x=x, y=y, col=coly)) + geom_point() +
+   scale_colour_manual(values = c("#e7298a", "#1b9e77")) + 
+  coord_equal() +
+  ggtitle("Figure 2: Aspect ratio is fixed.") +  
+  theme(legend.position = "none") 
+```
+
+# Plot 5
+
+
+```{r}
+# Generate sample data 
+set.seed(25052020)
+# normal
+s1 <- rnorm(100)
+s2 <- rbeta(100, 2, 1)
+s3 <- rexp(100)
+# mixture
+s4 <- rnorm(100, rep(c(-1, 1), each = 50) * sqrt(0.9), sqrt(0.1))
+four <- data.frame(
+dist = factor(rep(c("s1", "s2", "s3", "s4"),
+each = 100),
+c("s1", "s2", "s3", "s4")),
+vals = c(s1, s2, s3, s4)
+)
+```
+
+```{r, comment=NA, message=FALSE, echo=FALSE}
+ggplot(four, aes(x = vals)) + 
+geom_histogram(fill = "orange", colour = "black") + 
+coord_cartesian(xlim = c(-3, 6)) + 
+facet_wrap(~ dist) 
+```
+
+```{r, comment=NA, message=FALSE}
+ggplot(four, aes(x = vals)) +
+geom_histogram(binwidth = .1, fill = "orange", colour = "black") +
+coord_cartesian(xlim = c(-3, 6)) +
+facet_wrap(~ dist)
+
+```
+
+
+```{r, comment=NA, message=FALSE}
+ggplot(four, aes(x = vals)) +
+geom_histogram(binwidth = 2, fill = "orange", colour = "black") +
+coord_cartesian(xlim = c(-3, 6)) +
+facet_wrap(~ dist)
+
+```
+
+Add a rug
+
+```{r, comment=NA, message=FALSE}
+ggplot(four, aes(x = vals)) +
+geom_histogram(binwidth = .2, fill = "orange", colour = "black") +
+geom_rug() +
+coord_cartesian(xlim = c(-3,6)) +
+facet_wrap(~ dist)
+```
+
+# Plot 6
+
+# Boxplot 
+
+**Medium to Large N**
+
+```{r, comment=NA}
+ggplot(four, aes(y = vals, x = dist)) +
+geom_boxplot() +
+scale_x_discrete(name="") +
+scale_y_continuous(name="") 
+
+```
+
+# Add notches
+
+“Notches are used to compare groups; if the notches of two boxes do not overlap, this is strong evidence that the medians differ.” (Chambers et al., 1983, p. 62)
+
+```{r, comment=NA, fig.height=5}
+ggplot(four, aes(y = vals, x = dist)) +
+geom_boxplot(notch = T) +
+scale_x_discrete(name = "") +
+scale_y_continuous(name = "") +
+coord_cartesian(ylim = c(-4,4))
+```
+
+# Plot 7
+
+Stripchart 
+
+**Small to Medium**
+
+```{r, comment=NA, message=FALSE, warning=FALSE}
+ggplot(four, aes(x = dist, y = vals)) +
+geom_jitter(position = position_jitter(height = 0, width = .1),
+fill = "forestgreen",
+colour = "forestgreen",
+alpha = .5) +
+stat_summary(fun.y = median,
+geom = "crossbar",
+width = 0.5) +
+scale_x_discrete(name = "") +
+scale_y_continuous(name = "") +
+coord_cartesian(ylim = c(-4, 4))
+
+```
+
+
+

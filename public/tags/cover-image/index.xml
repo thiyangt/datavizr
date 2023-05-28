@@ -92,5 +92,14 @@ Data Data: Load here
 Variable Description Variable name Variable description Category category (African, Asian) Age_Category age category (&amp;ldquo;less than 10 years&amp;rdquo;, &amp;ldquo;10-20 years&amp;rdquo;, &amp;ldquo;greater than 20 years&amp;rdquo;) Gender elephant gender (male, female) Flank_Girth flank girth in meters Heart_Girth heart girth in meters Neck_Girth neck girth in meters Weight body weight in meters Height shoulder height in meters Fore_Feet_Circumference Average fore feet circumference in meters </description>
     </item>
     
+    <item>
+      <title>Best Practices in Data Visualisation</title>
+      <link>https://rdataviz.netlify.app/2023/05/best-practices-in-data-visualisation/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdataviz.netlify.app/2023/05/best-practices-in-data-visualisation/</guid>
+      <description>Click here</description>
+    </item>
+    
   </channel>
 </rss>
