@@ -2,13 +2,13 @@
 categories:
 - tranquilpeak
 - features
-coverImage: 
+coverImage: /plot.png
 coverMeta: out
 date: "2023-05-10"
 metaAlignment: center
 tags:
 - cover image
-thumbnailImage:
+thumbnailImage: /plot.png
 thumbnailImagePosition: left
 title: Best Practices in Data Visualisation
 ---
